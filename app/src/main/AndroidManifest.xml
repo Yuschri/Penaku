@@ -29,7 +29,10 @@
             android:label="@string/title_activity_login" />
         <activity android:name=".TulisActivity" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".ProfilActivity"></activity>
+        <activity android:name=".ProfilActivity" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"></activity>
     </application>
 
 </manifest>

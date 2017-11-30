@@ -34,13 +34,15 @@
     <string name="sudah_memiliki_akun_masuk_login_disini">Sudah memiliki Akun! Masuk Login disini</string>
     <string name="password">Password</string>
     <string name="email">Email</string>
-    <string name="judul">Judul</string>
     <string name="deskripsi_cerita">Deskripsi Cerita</string>
     <string name="tulis_cerita">Tulis Cerita</string>
     <string name="pilih_file">Pilih file</string>
     <string name="post_cerita">Post Cerita</string>
     <string name="batal">Batal</string>
-    <string name="password">Password</string>
     <string name="masuk">Masuk</string>
     <string name="posting">Posting</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>
