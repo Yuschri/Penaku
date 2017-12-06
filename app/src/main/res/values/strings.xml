@@ -32,12 +32,13 @@
     <string name="daftar_akun_baru">Daftar Akun Baru!</string>
     <string name="nama_lengkap">Nama Lengkap</string>
     <string name="sudah_memiliki_akun_masuk_login_disini">Sudah memiliki Akun! Masuk Login disini</string>
-    <string name="password">Password</string>
     <string name="email">Email</string>
+    <string name="Password">Password</string>
     <string name="deskripsi_cerita">Deskripsi Cerita</string>
     <string name="tulis_cerita">Tulis Cerita</string>
     <string name="pilih_file">Pilih file</string>
     <string name="post_cerita">Post Cerita</string>
+    <string name="profil">Profil</string>
     <string name="batal">Batal</string>
     <string name="masuk">Masuk</string>
     <string name="posting">Posting</string>

@@ -83,7 +83,7 @@
                 <TextView
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/password"
+                    android:text="@string/Password"
                     android:textColor="#372c24"
                     android:labelFor="@+id/reg_password"
                     />
@@ -100,17 +100,20 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dip"
+                    android:background="@color/colorBiru4"
                     android:text="@string/daftar_akun_baru"/>
                 <!-- Link to Login Screen -->
-                <TextView android:id="@+id/link_to_login"
+                <TextView
+                    android:id="@+id/link_to_login"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="40dip"
                     android:layout_marginBottom="40dip"
-                    android:text="@string/sudah_memiliki_akun_masuk_login_disini"
+                    android:layout_marginTop="40dip"
+                    android:fontFamily="sans-serif"
                     android:gravity="center"
-                    android:textSize="20sp"
-                    android:textColor="#025f7c"/>
+                    android:text="Sudah punya akun? Login di sini :)"
+                    android:textColor="#025f7c"
+                    android:textSize="18sp" />
 
             </LinearLayout>
             <!-- Registration Form Ends -->

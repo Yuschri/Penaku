@@ -3,4 +3,12 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="colorAbu">#78C2C3</color>
+    <color name="colorBirumuda">#D5F7FF</color>
+    <color name="colorBiru1">#66BFBF</color>
+    <color name="colorBiru2">#56A7A7</color>
+    <color name="colorBiru3">#DDEEDF</color>
+    <color name="colorBiru4">#A1D9FF</color>
+
+
 </resources>
