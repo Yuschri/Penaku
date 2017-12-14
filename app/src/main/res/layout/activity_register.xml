@@ -51,12 +51,12 @@
                 <TextView android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:textColor="#372c24"
-                    android:text="@string/nama_lengkap"
+                    android:text="@string/username"
                     android:labelFor="@+id/reg_fullname"
                     />
 
                 <EditText
-                    android:id="@+id/reg_fullname"
+                    android:id="@+id/reg_username"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dip"

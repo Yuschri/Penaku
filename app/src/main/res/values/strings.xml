@@ -30,7 +30,7 @@
     <string name="full_name">Full Name</string>
     <string name="todo">TODO</string>
     <string name="daftar_akun_baru">Daftar Akun Baru!</string>
-    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="username">Username</string>
     <string name="sudah_memiliki_akun_masuk_login_disini">Sudah memiliki Akun! Masuk Login disini</string>
     <string name="email">Email</string>
     <string name="Password">Password</string>
