@@ -1,11 +1,13 @@
 package com.creativate.app.penaku;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -26,6 +28,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
 
     private EditText editTextUsername, editTextPassword, editTextEmail;
     private Button buttonRegister;
+    private TextView link;
     private ProgressDialog progressDialog;
 
     @Override
@@ -38,6 +41,8 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         editTextPassword = (EditText) findViewById(R.id.reg_password);
 
         buttonRegister = (Button) findViewById(R.id.btnRegister);
+
+        link = (TextView) findViewById(R.id.link_to_login);
 
         progressDialog = new ProgressDialog(this);
 
@@ -93,5 +98,10 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         if (v == buttonRegister){
             registerUser();
         }
+    }
+
+    public void Pindah(View view) {
+        Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
+        startActivity(intent);
     }
 }

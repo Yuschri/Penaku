@@ -5,7 +5,7 @@ package com.creativate.app.penaku;
  */
 
 public class Constants {
-    private static final String ROOT_URL = "https://192.168.12.19/Android/v1/";
+    private static final String ROOT_URL = "https://192.168.12.31/Android/v1/";
 
     public static final String URL_REGISTER = ROOT_URL+"registerUser.php";
 }

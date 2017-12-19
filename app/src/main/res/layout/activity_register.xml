@@ -52,9 +52,8 @@
                     android:layout_height="wrap_content"
                     android:textColor="#372c24"
                     android:text="@string/username"
-                    android:labelFor="@+id/reg_fullname"
+                    android:labelFor="@+id/reg_username"
                     />
-
                 <EditText
                     android:id="@+id/reg_username"
                     android:layout_width="fill_parent"
@@ -93,7 +92,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dip"
-                    android:inputType="textPassword|textVisiblePassword"
+                    android:inputType="textPassword"
                     android:singleLine="true" />
                 <!-- Register Button -->
                 <Button android:id="@+id/btnRegister"
@@ -113,7 +112,9 @@
                     android:gravity="center"
                     android:text="Sudah punya akun? Login di sini :)"
                     android:textColor="#025f7c"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:onClick="Pindah"
+                    />
 
             </LinearLayout>
             <!-- Registration Form Ends -->

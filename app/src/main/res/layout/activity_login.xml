@@ -75,6 +75,20 @@
                 android:background="@color/colorBiru4"
                 android:textStyle="bold" />
 
+            <TextView
+                android:id="@+id/link_to_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dip"
+                android:layout_marginTop="40dip"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Belum Punya Akun? Daftar Di sini :)"
+                android:textColor="#025f7c"
+                android:textSize="18sp"
+                android:onClick="Kembali"
+                />
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
